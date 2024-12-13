@@ -1,0 +1,78 @@
+img{
+    max-width:100%
+}
+nav{
+    background-color: #1E2028;
+    padding: 1%;
+    .navbar-brand{
+        width: 20%;
+    }
+    
+    a{
+        color: white !important;
+    }
+    
+}
+.navbar .container:nth-child(1){
+    justify-content: start;
+    padding-left: 3% ;
+    
+}
+.navbar .container:nth-child(2){
+    justify-content: end;
+}
+.btn{
+    background:url("https://www.bandainamcoent.com/assets/images/games/nightreign/ern-button-bg-default@2x.webp");
+    padding: 2% 5%;
+    border:#48AAFF solid 2px;
+    border-radius: 0;
+    color: white 
+}
+.btn:hover{
+    background:url("https://www.bandainamcoent.com/assets/images/games/nightreign/ern-button-bg-default@2x.webp");
+    color:#8BF1EC !important;
+}
+#inicio{
+    background:url("https://media.graphassets.com/9zHbEIrSvyuk7GfIkYiA");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 2%;
+    a{
+        margin-top: 5%;
+    }
+}
+#lugar{
+    width: 100%;
+    background: url(https://media.graphassets.com/L6ZTk6PsRVayzPfFHAPB);
+    position: relative;
+    height: 25vh;
+    h1 {
+        font-size: 4rem;
+        background: linear-gradient(to bottom, white, #6C8FA5); 
+        -webkit-background-clip: text; 
+        color: transparent; 
+    }
+    
+}
+.decor::before{
+    position: absolute;
+    top: -51px;
+    width: 100%;
+    content: "";
+    display: block;
+    background: url(https://www.bandainamcoent.com/assets/images/games/nightreign/ern-wishlist-container-divider-top@2x.webp);
+    background-size: cover;
+    height: 65px;
+    z-index: 999;
+}
+.decor::after{
+    position: absolute;
+    bottom: -33px;
+    width: 100%;
+    content: "";
+    display: block;
+    background: url(https://www.bandainamcoent.com/assets/images/games/nightreign/ern-wishlist-container-divider-bottom@2x.webp);
+    background-size: cover;
+    height: 50px;
+}
