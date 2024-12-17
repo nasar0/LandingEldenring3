@@ -13,6 +13,9 @@ nav{
     }
     
 }
+/* body{
+    overflow: hidden;
+} */
 .navbar .container:nth-child(1){
     justify-content: start;
     padding-left: 3% ;
@@ -21,15 +24,22 @@ nav{
 .navbar .container:nth-child(2){
     justify-content: end;
 }
+a{
+    text-transform: uppercase;
+}
 .btn{
     background:url("https://www.bandainamcoent.com/assets/images/games/nightreign/ern-button-bg-default@2x.webp");
-    padding: 2% 5%;
+    background-position: center;
+    background-size: cover;
+    padding: 3%;
     border:#48AAFF solid 2px;
     border-radius: 0;
     color: white 
 }
 .btn:hover{
     background:url("https://www.bandainamcoent.com/assets/images/games/nightreign/ern-button-bg-default@2x.webp");
+    background-position: center;
+    background-size: cover;
     color:#8BF1EC !important;
 }
 #inicio{
@@ -42,18 +52,23 @@ nav{
         margin-top: 5%;
     }
 }
+h2 {
+    font-size: 4rem;
+    background: linear-gradient(to bottom, white, #6C8FA5); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
 #lugar{
     width: 100%;
     background: url(https://media.graphassets.com/L6ZTk6PsRVayzPfFHAPB);
     position: relative;
     height: 25vh;
-    h1 {
-        font-size: 4rem;
-        background: linear-gradient(to bottom, white, #6C8FA5); 
-        -webkit-background-clip: text; 
-        color: transparent; 
+    #enlaces{
+        width: 80%;
+        a{
+            padding: 0.9rem 5%;
+        }
     }
-    
 }
 .decor::before{
     position: absolute;
@@ -68,11 +83,127 @@ nav{
 }
 .decor::after{
     position: absolute;
-    bottom: -33px;
+    bottom: -51px;
     width: 100%;
     content: "";
     display: block;
     background: url(https://www.bandainamcoent.com/assets/images/games/nightreign/ern-wishlist-container-divider-bottom@2x.webp);
     background-size: cover;
-    height: 50px;
+    height: 65px;
 }
+#game{
+    padding-top: 5%;
+    background: url(https://media.graphassets.com/cIJG2iOIQquMIebGYk4a);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    th{
+
+        color: #75FBDB;
+    }
+      
+}
+table{
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+.decora::before{
+    position: absolute;
+    top: -51px;
+    width: 100%;
+    content: "";
+    display: block;
+    background: url(https://www.bandainamcoent.com/assets/images/games/nightreign/ern-wishlist-container-divider-top@2x.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 65px;
+    z-index: 999;
+}
+.decora::after{
+    position: absolute;
+    bottom: -51px;
+    width: 100%;
+    content: "";
+    display: block;
+    background: url(https://www.bandainamcoent.com/assets/images/games/nightreign/ern-wishlist-container-divider-bottom@2x.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 65px;
+}
+
+.img-borde {
+    display: inline-block; 
+    padding: 40px;
+    background-image: url('https://media.graphassets.com/1RyHIaCwSu4QiQKVOxyp'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.img-borde img {
+    display: block;  
+    width: 100%;  
+    height: auto; 
+}
+
+table {
+    border-spacing: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+.list-unstyled {
+    margin: 0;
+    padding: 0;
+}
+#game .row:last-child h2{
+    font-size: 3rem;
+}
+#game p>span{
+    display: block;
+    width: 100%;
+}
+#game span:last-child{
+    font-size: 12px;
+    color: #ACACAA;
+}
+
+br {
+    margin-bottom: 2%;  
+}
+#video{
+    background: url(https://media.graphassets.com/dLbWLz1SYyWtsanZ2s5w);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+#video #fondo{
+    margin: auto;
+    background: url(https://media.graphassets.com/w9xowG0OSWuniBXZtptahttps://media.graphassets.com/P0Lx7mFQNmLXTWEzos5V);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 70vh;
+    display: block;
+}
+#video #fondo:hover{
+    scale: 1.01;
+}
+
+#video #row{
+    padding-top:5%;
+}
+#video img:hover{
+    scale: 1.01;
+}
+  
